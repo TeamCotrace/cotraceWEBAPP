@@ -15,7 +15,9 @@ export default async function handler(req, res) {
   
         const {userId} = req.body;
   
-        await dbConnect();     
+        await dbConnect(); 
+        
+        console.log(userId);
          
         const getdata = await Hotcars.aggregate([
             

@@ -5,17 +5,14 @@ import { errorHandler,responseHandler } from "../../../util/common";
 
 export default async function handler(req, res) {
 
-    if (req.method !== "POST") {
 
-      errorHandler("Invalide Request Type is not a POST", res);
-  
-    } else {
-  
       try {
   
-        const {pnumber} = req.body;
+        const { pnumber } = req.body;
   
         await dbConnect();     
+
+        console.log(pnumber)
          
         const getdata = await Hotcars.aggregate([
             
@@ -41,6 +38,6 @@ export default async function handler(req, res) {
         errorHandler(error, res);
 
       }
-    }
+    
   }
   

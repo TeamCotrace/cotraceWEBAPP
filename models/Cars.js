@@ -4,12 +4,11 @@ import mongoose from "mongoose";
 
 const HotcarsSchema = mongoose.Schema({    
     
-
-   
+  
     
     pnumber: {
         type:String,
-        unique:true
+       
     },
 
     typeV: {

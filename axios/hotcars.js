@@ -35,7 +35,7 @@ export const list_hotcars = async (userId) => {
 export const get_hotcars = async (pnumber) => {
     try {
 
-        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Hot_cars/gethotcars',pnumber);
+        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Hot_cars/gethotcars', pnumber);
         return res.data;
 
     }catch(error){

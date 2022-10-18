@@ -11,7 +11,7 @@ const nextConfig = {
 
    
      NEXTAUTH_URL: 'https://cotraceweb.vercel.app',
-     //NEXTAUTH_URL: 'http://192.168.102.11:3000',
+     //NEXTAUTH_URL: 'http://192.168.1.4:3000',
      NEXTAUTH_SECRET: 'v7COYqKpEdnCbd5aISAw9BxjupOLKYCgBVZ2kwusMNs=',
 
  },
