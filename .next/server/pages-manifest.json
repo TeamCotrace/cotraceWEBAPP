@@ -6,11 +6,11 @@
   "/api/Location/addlocation": "pages/api/Location/addlocation.js",
   "/api/User/user": "pages/api/User/user.js",
   "/api/hello": "pages/api/hello.js",
-  "/components/Header": "pages/components/Header.js",
-  "/components/Hotcars/addhotcars": "pages/components/Hotcars/addhotcars.js",
-  "/components/Hotcars/list_hotcars": "pages/components/Hotcars/list_hotcars.js",
-  "/components/List": "pages/components/List.js",
-  "/components/Users/addUser": "pages/components/Users/addUser.js",
-  "/": "pages/index.js",
-  "/_document": "pages/_document.js"
+  "/components/Hotcars/addhotcars": "pages/components/Hotcars/addhotcars.html",
+  "/components/Header": "pages/components/Header.html",
+  "/components/Hotcars/list_hotcars": "pages/components/Hotcars/list_hotcars.html",
+  "/components/Users/addUser": "pages/components/Users/addUser.html",
+  "/": "pages/index.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
