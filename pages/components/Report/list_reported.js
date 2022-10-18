@@ -78,15 +78,15 @@ const Reported_list = () => {
             },
                   
           
-            {        
-                name:"Image",
-                cell: (d) =>(
+            // {        
+            //     name:"Image",
+            //     cell: (d) =>(
                   
-                    <Report_image imagelink={d.image} />
+            //         <Report_image imagelink={d.image} />
                     
-                )          
+            //     )          
           
-            },
+            // },
           
             
             
