@@ -110,7 +110,7 @@ const { isOpen, onToggle } = useDisclosure();
       <Link href={'/'}><Button bg={'blue.400'} _hover={{bg:'red.500'}}>Dashboard</Button></Link>
       <Link href={'/components/Hotcars/list_hotcars'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Hot Cars</Button></Link>
       <Link href={'/'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Location</Button></Link>
-      <Link href={'/'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Reports</Button></Link>
+      <Link href={'/components/Report/list_reported'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Reports</Button></Link>
       </Stack>
 
 
