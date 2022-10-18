@@ -51,7 +51,7 @@ const Hotcars_list = () => {
           getData(userId) 
     
              
-            }, []);
+            }, [userId]);
 
         
     

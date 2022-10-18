@@ -20,7 +20,7 @@ axios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (awa
 
 const addhotcars = async (payload)=>{
     try {
-        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("http://192.168.102.11:3000" + "/api/Hot_cars/addhotcars", payload);
+        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("https://cotraceweb.vercel.app" + "/api/Hot_cars/addhotcars", payload);
         return res.data;
     } catch (error) {
         return (0,_util_common__WEBPACK_IMPORTED_MODULE_1__/* .getValue */ .NA)(error, [
@@ -31,7 +31,7 @@ const addhotcars = async (payload)=>{
 };
 const list_hotcars = async (userId)=>{
     try {
-        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("http://192.168.102.11:3000" + "/api/Hot_cars/hotcarslist", userId);
+        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("https://cotraceweb.vercel.app" + "/api/Hot_cars/hotcarslist", userId);
         return res.data;
     } catch (error) {
         return (0,_util_common__WEBPACK_IMPORTED_MODULE_1__/* .getValue */ .NA)(error, [

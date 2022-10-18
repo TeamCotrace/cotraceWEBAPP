@@ -21,7 +21,7 @@ axios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (awa
 
 const addData = async (payload)=>{
     try {
-        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("http://192.168.102.11:3000" + "/api/User/user", payload);
+        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("https://cotraceweb.vercel.app" + "/api/User/user", payload);
         return res.data;
     } catch (error) {
         return (0,_util_common__WEBPACK_IMPORTED_MODULE_1__/* .getValue */ .NA)(error, [

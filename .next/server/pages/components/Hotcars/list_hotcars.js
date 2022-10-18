@@ -59,7 +59,9 @@ const Hotcars_list = ()=>{
     };
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         getData(userId);
-    }, []);
+    }, [
+        userId
+    ]);
     const columns = [
         {
             name: "Plate Number",

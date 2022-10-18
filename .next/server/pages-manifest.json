@@ -9,8 +9,8 @@
   "/components/Header": "pages/components/Header.js",
   "/components/Hotcars/addhotcars": "pages/components/Hotcars/addhotcars.js",
   "/components/Hotcars/list_hotcars": "pages/components/Hotcars/list_hotcars.js",
+  "/components/List": "pages/components/List.js",
   "/components/Users/addUser": "pages/components/Users/addUser.js",
   "/": "pages/index.js",
-  "/components/List": "pages/components/List.js",
   "/_document": "pages/_document.js"
 }
