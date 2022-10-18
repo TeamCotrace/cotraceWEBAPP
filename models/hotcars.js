@@ -7,42 +7,21 @@ const HotcarsSchema = mongoose.Schema({
     
 
    
-    hotcars: {
-        type:Number,     
-
-    },
+    
     pnumber: {
-        type:Number,
-    },
-   
-    lat: {
-        type:Number,
-    },
-
-    lng: {
-        type:Number,   
-
-    },
-
-   
-    image:{
         type:String,
-        trim:true
+        unique:true
     },
 
-    locId:{
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Location",   
-    },
+    typeV: {
+        type:String,       
 
+
+    },
+  
     userId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",        
-    },
-
-    empId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Employee",        
     },
 
 
