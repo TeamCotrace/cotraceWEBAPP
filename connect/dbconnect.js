@@ -19,8 +19,8 @@ export async function dbConnect(){
      
          console.log('First time create new connection');
 
-         const connString = 'mongodb+srv://admin:zGpNvLsczrPC3bkm@cluster0.bi6qm.mongodb.net/attDB?retryWrites=true&w=majority'
-     
+         const connString = 'mongodb+srv://admin:zGpNvLsczrPC3bkm@cluster0.e2gsa4p.mongodb.net/cotraceDB?retryWrites=true&w=majority'
+
          const promise = mongoose.connect(connString,{
      
              useNewUrlParser: true,

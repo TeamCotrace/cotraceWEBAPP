@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/Hot_cars/addhotcars": "pages/api/Hot_cars/addhotcars.js",
+  "/api/Hot_cars/hotcarslist": "pages/api/Hot_cars/hotcarslist.js",
+  "/api/Location/addlocation": "pages/api/Location/addlocation.js",
+  "/api/User/user": "pages/api/User/user.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Header": "pages/components/Header.js",
+  "/components/Hotcars/addhotcars": "pages/components/Hotcars/addhotcars.js",
+  "/components/Hotcars/list_hotcars": "pages/components/Hotcars/list_hotcars.js",
+  "/components/Users/addUser": "pages/components/Users/addUser.js",
+  "/": "pages/index.js",
+  "/components/List": "pages/components/List.js",
+  "/_document": "pages/_document.js"
+}
