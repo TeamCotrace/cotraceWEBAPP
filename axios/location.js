@@ -4,28 +4,28 @@ import { getValue } from "../util/common"
 
 
 
-export const add_location = async (payload) => {
-    try {
+// export const add_location = async (payload) => {
+//     try {
 
-        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/addloca', payload);
-        return res.data;
+//         const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/addloca', payload);
+//         return res.data;
 
-    }catch(error){
+//     }catch(error){
 
-        return getValue(error,["response","data"]);
-    }
-}
+//         return getValue(error,["response","data"]);
+//     }
+// }
 
 
 
-export const list_location = async (userId) => {
-    try {
+// export const list_location = async (userId) => {
+//     try {
 
-        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/list_location',userId);
-        return res.data;
+//         const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/list_location',userId);
+//         return res.data;
 
-    }catch(error){
+//     }catch(error){
 
-        return getValue(error,["response","data"]);
-    }
-}
+//         return getValue(error,["response","data"]);
+//     }
+// }
