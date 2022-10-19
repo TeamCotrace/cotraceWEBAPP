@@ -21,8 +21,8 @@
   "/components/Report/list_reported": "pages/components/Report/list_reported.html",
   "/components/Report/reportimage": "pages/components/Report/reportimage.html",
   "/components/Report/reportmap": "pages/components/Report/reportmap.html",
-  "/": "pages/index.html",
   "/components/Users/addUser": "pages/components/Users/addUser.html",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }
