@@ -12,7 +12,7 @@ module.exports = require("mongoose");
 
 /***/ }),
 
-/***/ 6141:
+/***/ 8743:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -21,7 +21,7 @@ module.exports = require("mongoose");
 /* harmony import */ var mongoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1185);
 /* harmony import */ var mongoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mongoose__WEBPACK_IMPORTED_MODULE_0__);
 
-const LocationSchema = mongoose__WEBPACK_IMPORTED_MODULE_0___default().Schema({
+const GetLocaSchema = mongoose__WEBPACK_IMPORTED_MODULE_0___default().Schema({
     locName: {
         type: String,
         required: true,
@@ -49,7 +49,7 @@ const LocationSchema = mongoose__WEBPACK_IMPORTED_MODULE_0___default().Schema({
 }, {
     timestamps: true
 });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((mongoose__WEBPACK_IMPORTED_MODULE_0___default().models.Location) || mongoose__WEBPACK_IMPORTED_MODULE_0___default().model("Location", LocationSchema));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((mongoose__WEBPACK_IMPORTED_MODULE_0___default().models.GetLoca) || mongoose__WEBPACK_IMPORTED_MODULE_0___default().model("GetLoca", GetLocaSchema));
 
 
 /***/ }),
@@ -62,7 +62,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ handler)
 /* harmony export */ });
 /* harmony import */ var _connect_dbconnect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4171);
-/* harmony import */ var _models_Location__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6141);
+/* harmony import */ var _models_GetLoca__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8743);
 /* harmony import */ var _util_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3895);
 
 
@@ -74,7 +74,7 @@ async function handler(req, res) {
         try {
             const { locName , lat , lng , rad , userId  } = req.body;
             await (0,_connect_dbconnect__WEBPACK_IMPORTED_MODULE_0__/* .dbConnect */ .C)();
-            const locdata = new _models_Location__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z({
+            const locdata = new _models_GetLoca__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z({
                 locName: locName,
                 latitude: lat,
                 longitude: lng,

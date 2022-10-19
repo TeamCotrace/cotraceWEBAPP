@@ -1,5 +1,5 @@
 import { dbConnect } from "../../../connect/dbconnect";
-import Location from "../../../models/Location";
+import GetLoca from "../../../models/GetLoca";
 import { errorHandler,responseHandler } from "../../../util/common";
 
 
@@ -19,7 +19,7 @@ export default async function handler(req, res) {
         
         console.log(userId);
          
-        const getdata = await Location.aggregate([
+        const getdata = await GetLoca.aggregate([
             
             { 
               $match : { userId: require('mongoose').Types.ObjectId(userId)},

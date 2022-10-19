@@ -1,6 +1,6 @@
 
 import { dbConnect } from "../../../connect/dbconnect";
-import Location from "../../../models/Location";
+import GetLoca from "../../../models/GetLoca";
 import { errorHandler,responseHandler } from "../../../util/common";
 
 
@@ -17,7 +17,7 @@ export default async function handler(req, res) {
   
         await dbConnect();   
   
-        const locdata = new Location({
+        const locdata = new GetLoca({
             
           locName:locName,
           latitude:lat,

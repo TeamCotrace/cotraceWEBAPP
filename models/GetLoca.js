@@ -1,7 +1,7 @@
 
 import mongoose from "mongoose";
 
-const LocationSchema = mongoose.Schema({
+const GetLocaSchema = mongoose.Schema({
     
     locName:{
         type:String,
@@ -39,4 +39,4 @@ const LocationSchema = mongoose.Schema({
 
 
 
-export default mongoose.models.Location || mongoose.model('Location', LocationSchema);
+export default mongoose.models.GetLoca || mongoose.model('GetLoca', GetLocaSchema);
