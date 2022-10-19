@@ -1,10 +1,10 @@
 {
   "/_app": "pages/_app.js",
-  "/api/Hot_cars/addhotcars": "pages/api/Hot_cars/addhotcars.js",
   "/_error": "pages/_error.js",
-  "/api/Hot_cars/hotcarslist": "pages/api/Hot_cars/hotcarslist.js",
+  "/api/Hot_cars/addhotcars": "pages/api/Hot_cars/addhotcars.js",
   "/api/Hot_cars/gethotcars": "pages/api/Hot_cars/gethotcars.js",
-  "/api/Location/addlocation": "pages/api/Location/addlocation.js",
+  "/api/Hot_cars/hotcarslist": "pages/api/Hot_cars/hotcarslist.js",
+  "/api/Location/addloca": "pages/api/Location/addloca.js",
   "/api/Location/list_location": "pages/api/Location/list_location.js",
   "/api/User/user": "pages/api/User/user.js",
   "/api/hello": "pages/api/hello.js",
@@ -21,8 +21,8 @@
   "/components/Report/list_reported": "pages/components/Report/list_reported.html",
   "/components/Report/reportimage": "pages/components/Report/reportimage.html",
   "/components/Report/reportmap": "pages/components/Report/reportmap.html",
-  "/components/Users/addUser": "pages/components/Users/addUser.html",
   "/": "pages/index.html",
+  "/components/Users/addUser": "pages/components/Users/addUser.html",
   "/_document": "pages/_document.js",
   "/404": "pages/404.html"
 }

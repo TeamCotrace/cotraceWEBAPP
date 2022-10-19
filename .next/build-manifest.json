@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/QuOBIBat6kucTacjNrWI3/_buildManifest.js",
-    "static/QuOBIBat6kucTacjNrWI3/_ssgManifest.js"
+    "static/MVy7x9YwSA71GgdM81vWp/_buildManifest.js",
+    "static/MVy7x9YwSA71GgdM81vWp/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -59,7 +59,7 @@
       "static/chunks/framework-4556c45dd113b893.js",
       "static/chunks/main-18053c3f67c4d467.js",
       "static/chunks/428-d34b007b566ab509.js",
-      "static/chunks/pages/components/Loc/addLoc-658b0768fbefd541.js"
+      "static/chunks/pages/components/Loc/addLoc-2eada971a8524fc7.js"
     ],
     "/components/Loc/geofence": [
       "static/chunks/webpack-be42ab225d639761.js",
@@ -77,7 +77,7 @@
       "static/chunks/428-d34b007b566ab509.js",
       "static/chunks/725-4f1c5622d735d084.js",
       "static/chunks/44-94e3c962cfa2b02c.js",
-      "static/chunks/525-026f5e68455c0fe4.js",
+      "static/chunks/525-386d8a68761567c2.js",
       "static/chunks/pages/components/Loc/list_location-e33f2b1082688eba.js"
     ],
     "/components/Map": [
@@ -86,7 +86,7 @@
       "static/chunks/main-18053c3f67c4d467.js",
       "static/chunks/428-d34b007b566ab509.js",
       "static/chunks/725-4f1c5622d735d084.js",
-      "static/chunks/525-026f5e68455c0fe4.js",
+      "static/chunks/525-386d8a68761567c2.js",
       "static/chunks/pages/components/Map-4f8a71c08e3be3a2.js"
     ],
     "/components/MapControl": [
@@ -96,7 +96,7 @@
       "static/chunks/319-97fee05a91cfbd82.js",
       "static/chunks/428-d34b007b566ab509.js",
       "static/chunks/725-4f1c5622d735d084.js",
-      "static/chunks/525-026f5e68455c0fe4.js",
+      "static/chunks/525-386d8a68761567c2.js",
       "static/chunks/pages/components/MapControl-b251c01a9aee9314.js"
     ],
     "/components/Report/list_reported": [

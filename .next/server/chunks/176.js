@@ -20,7 +20,7 @@ axios__WEBPACK_IMPORTED_MODULE_0__ = (__webpack_async_dependencies__.then ? (awa
 
 const add_location = async (payload)=>{
     try {
-        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("https://cotraceweb.vercel.app" + "/api/Location/addlocation", payload);
+        const res = await axios__WEBPACK_IMPORTED_MODULE_0__["default"].post("https://cotraceweb.vercel.app" + "/api/Location/addloca", payload);
         return res.data;
     } catch (error) {
         return (0,_util_common__WEBPACK_IMPORTED_MODULE_1__/* .getValue */ .NA)(error, [

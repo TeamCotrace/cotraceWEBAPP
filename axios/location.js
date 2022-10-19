@@ -7,7 +7,7 @@ import { getValue } from "../util/common"
 export const add_location = async (payload) => {
     try {
 
-        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/addlocation', payload);
+        const res = await axios.post(process.env.NEXTAUTH_URL + '/api/Location/addloca', payload);
         return res.data;
 
     }catch(error){
