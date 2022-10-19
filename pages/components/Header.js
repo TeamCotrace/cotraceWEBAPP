@@ -13,7 +13,6 @@ import { Flex,Stack, Text, Button,
     useDisclosure, Avatar} from "@chakra-ui/react";
 
 import Link from "next/link";
-import { signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import {
   HamburgerIcon,
@@ -26,20 +25,20 @@ import {
 const Header_layout = () => {
 
 const router = useRouter()
-const {data: session} =  useSession();
+
 
 
 const { isOpen, onToggle } = useDisclosure();
 
 
 
-  const logout = () => {
+//   const logout = () => {
 
-    signOut({ redirect: true }).then(result => {
+//     signOut({ redirect: true }).then(result => {
        
-      router.push('/')
-    });
-}
+//       router.push('/')
+//     });
+// }
 
   return (
     <Box>
@@ -59,12 +58,11 @@ const { isOpen, onToggle } = useDisclosure();
           textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
           fontFamily={'heading'}
           color={useColorModeValue('gray.800', 'white')}>
-          {session && session.user.email}
         </Text>
 
-        {/* <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
-         Desktop
-        </Flex> */}
+        <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
+         <Text fontSize={30} fontWeight={'bold'}> CoTRACE  </Text>
+        </Flex>
       </Flex>
 
       <Stack
@@ -73,12 +71,15 @@ const { isOpen, onToggle } = useDisclosure();
         direction={'row'}
         spacing={6}>
         
-        <Button onClick={logout}        
+        <Link href={'/'}>
+        <Button       
           fontSize={'sm'}
           fontWeight={400}          
           >
           Sign Out
         </Button>
+        </Link>
+
 
         <Link href={'/components/Users/addUser'}>
         <Button       
@@ -109,7 +110,7 @@ const { isOpen, onToggle } = useDisclosure();
       <Stack p={5} direction={'row'}>
       <Link href={'/'}><Button bg={'blue.400'} _hover={{bg:'red.500'}}>Dashboard</Button></Link>
       <Link href={'/components/Hotcars/list_hotcars'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Hot Cars</Button></Link>
-      <Link href={'/'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Location</Button></Link>
+      <Link href={'/components/Loc/list_location'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Location</Button></Link>
       <Link href={'/components/Report/list_reported'}><Button  bg={'blue.400'} _hover={{bg:'red.500'}}>Reports</Button></Link>
       </Stack>
 

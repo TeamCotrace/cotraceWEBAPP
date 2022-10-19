@@ -5,7 +5,6 @@ import { useEffect } from 'react';
 import { Flex, Avatar, Box, Button, Spacer } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 
-import { useSession } from "next-auth/react";
 import Addhotcars from './addhotcars';
 
 
@@ -15,7 +14,6 @@ const Hotcars_list = () => {
     const [userId, setuserId] = useState('634e86ad8b3a310a0652fcc6');
 
 
-    const {data: session} =  useSession();
  
 
     const router = useRouter()

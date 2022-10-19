@@ -1,5 +1,12 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/api/Hot_cars/hotcarslist": "pages/api/Hot_cars/hotcarslist.js",
+  "/components/Hotcars/list_hotcars": "pages/components/Hotcars/list_hotcars.js",
+  "/api/reported/list_report": "pages/api/reported/list_report.js",
+  "/api/Location/list_location": "pages/api/Location/list_location.js",
+  "/components/Loc/list_location": "pages/components/Loc/list_location.js",
+  "/components/Report/list_reported": "pages/components/Report/list_reported.js"
 }

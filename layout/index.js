@@ -2,14 +2,13 @@ import {Flex,Box,VStack, StackDivider, Spacer,Grid} from "@chakra-ui/react"
 // import List from "../pages/components/List";
 import Header_layout from "../pages/components/Header";
 import { useState } from "react";
-import {useSession } from "next-auth/react";
 
 
 
 
 const Layout = ({children}) =>{
 
-  const {data:session} = useSession();
+ 
 
     return (
 

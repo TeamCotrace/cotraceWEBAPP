@@ -4,9 +4,8 @@ import { list_reported } from '../../../axios/reported';
 import { useEffect } from 'react';
 import { Flex, Avatar, Box, Button, Spacer } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
-import { useSession } from "next-auth/react";
-import {Report_image} from "./reportimage";
-
+import Report_image from "./reportimage";
+import Reportmap from './reportmap';
 
 const Reported_list = () => {
 
@@ -14,7 +13,6 @@ const Reported_list = () => {
     const [userId, setuserId] = useState('634e86ad8b3a310a0652fcc6');
 
 
-    const {data: session} =  useSession();
  
 
     const router = useRouter()
@@ -78,15 +76,29 @@ const Reported_list = () => {
             },
                   
           
-            // {        
-            //     name:"Image",
-            //     cell: (d) =>(
+            {        
+                name:"Image",
+                cell: (d) =>(
                   
-            //         <Report_image imagelink={d.image} />
+                    <Report_image imagelink={d.image} />
                     
-            //     )          
+                )          
           
-            // },
+            },
+
+                  
+            {        
+                name:"View Maps",
+                cell: (d) =>(
+                    <Flex direction={'row'}>
+                        <Reportmap coordinates={{lat:d.lat, lng: d.lng}} />    
+                    </Flex>                  
+                    
+                
+            )              
+                    
+            
+              },
           
             
             
