@@ -1,9 +1,9 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/api/Hot_cars/gethotcars": "pages/api/Hot_cars/gethotcars.js",
   "/api/Hot_cars/addhotcars": "pages/api/Hot_cars/addhotcars.js",
+  "/_error": "pages/_error.js",
   "/api/Hot_cars/hotcarslist": "pages/api/Hot_cars/hotcarslist.js",
+  "/api/Hot_cars/gethotcars": "pages/api/Hot_cars/gethotcars.js",
   "/api/Location/addlocation": "pages/api/Location/addlocation.js",
   "/api/Location/list_location": "pages/api/Location/list_location.js",
   "/api/User/user": "pages/api/User/user.js",
